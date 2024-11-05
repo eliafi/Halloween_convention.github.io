@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="horror.webp" alt="logo" style="width: 100px; height: auto;">
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section class="main-content">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Eli Ayekpley" required><br><br>
+
+                <label for="number">Phone Number:</label>
+                <input type="tel" id="number" name="number" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required><br><br>
+
+                <label for="options">Event:</label>
+                <select id="options" name="Event" required>
+                    <option value="">Select an Event</option>
+                    <option value="Freddie Kreuger Night"> Freddie Kreuger Night</option>
+                    <option value="Scream Marathon">Scream Marathon</option>
+                    <option value="The Nun Experience">The Nun Experience</option>
+                </select><br><br>
+
+                <label for="options">Ticket Type:</label>
+                <select id="options" name="Ticket Type" required>
+                    <option value="">Select a ticket</option>
+                    <option value="General"> General</option>
+                    <option value="VIP">VIP</option>
+                    <option value="VVIP">VVIP</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+    </section>
+    <footer>
+        <ul>
+        <a href="index.html">Back to Home</a></li>
+        </ul>
+        <p>Horror Convention &copy; 2021</p>
+    </footer>
+    </main>
+    <div class = "sub-menu hidden">
+        <img src="product1.jpg" alt="">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

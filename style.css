@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top, white, #f15d5d);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.main-content {
+    background: linear-gradient(to bottom, white, #f15d5d);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: linear-gradient(to right, white, #460909);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
